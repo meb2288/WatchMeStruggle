@@ -1,5 +1,5 @@
 <photo-card>
   <p>
-  Photocard.tag 
+    photo-card.tag 
   </p>
 </photo-card>
