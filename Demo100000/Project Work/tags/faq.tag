@@ -1,5 +1,5 @@
 <faq>
-  <h2> FAQs </h2>
+  <h3> Most Frequently Asked </h3>
   
   
   <!-- Question One --> 
@@ -36,12 +36,37 @@
   
   </div> 
   
+  <!--New Question--> 
+  
+  <h3> New Question </h3> 
+  
+  <div class="container black-border">
+  
+    <h5> Question #3 </h5>
+    
+    <questions><questions>
+  
+  </div>
+  
   <!--Input New Question--> 
   
   <h3> Add Your Own Question </h3>
   
+  <p> Question
+    <input type="text" placeholder="Type question here">
+    <button type="button">Submit</button>
+  </p>
+  
+  <p> Answer 
+    <input type="text" ref="questionRef" placeholder="Type answer here">
+    <button type="button" onclick={ question }>Submit</button> 
+  </p>
   
   <script>
+  
+  // this.question = function(event) {
+  //  this.
+  //   }
   
   <!--Question One--> 
     
@@ -94,6 +119,7 @@
       margin: 10px;
       background-color: #FFFFE0;
     }
+
   </style>
 
 
