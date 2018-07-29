@@ -1,4 +1,6 @@
 <faq>
+  <h1><strong>Frequently Asked Questions</strong></h1>
+  
   <h3> Most Frequently Asked </h3>
   
   
@@ -110,7 +112,9 @@
   <style>
     :scope {
       display: block;
-      padding: 20px
+      padding: 20px;
+      background-color: #ADD8E6;
+      font-family: 'Gaegu', cursive;
     }
     
     .black-border {
